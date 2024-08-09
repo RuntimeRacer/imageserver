@@ -127,6 +127,11 @@ func (ps *SourcePrefixParser) Parse(req *http.Request, params imageserver.Params
 	})
 }
 
+type SourceGCSBucketParser struct {
+	Parser
+	BucketName string
+}
+
 // ParseQueryString takes the param from the HTTP URL query and add it to the Params.
 func ParseQueryString(param string, req *http.Request, params imageserver.Params) {
 	s := req.URL.Query().Get(param)
