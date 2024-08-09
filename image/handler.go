@@ -1,7 +1,7 @@
 package image
 
 import (
-	"github.com/pierrre/imageserver"
+	"github.com/runtimeracer/imageserver"
 )
 
 // Handler is a imageserver.Handler implementation that uses Go "image" package.

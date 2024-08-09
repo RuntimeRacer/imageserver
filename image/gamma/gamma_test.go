@@ -5,10 +5,10 @@ import (
 	"image"
 	"testing"
 
-	"github.com/pierrre/imageserver"
-	imageserver_image "github.com/pierrre/imageserver/image"
-	_ "github.com/pierrre/imageserver/image/jpeg"
-	"github.com/pierrre/imageserver/testdata"
+	"github.com/runtimeracer/imageserver"
+	imageserver_image "github.com/runtimeracer/imageserver/image"
+	_ "github.com/runtimeracer/imageserver/image/jpeg"
+	"github.com/runtimeracer/imageserver/testdata"
 )
 
 var _ imageserver_image.Processor = &Processor{}

@@ -5,9 +5,9 @@ import (
 	"testing"
 
 	"github.com/pierrre/compare"
-	"github.com/pierrre/imageserver"
-	imageserver_image "github.com/pierrre/imageserver/image"
-	imageserver_testdata "github.com/pierrre/imageserver/testdata"
+	"github.com/runtimeracer/imageserver"
+	imageserver_image "github.com/runtimeracer/imageserver/image"
+	imageserver_testdata "github.com/runtimeracer/imageserver/testdata"
 )
 
 var _ imageserver_image.Processor = &RotateProcessor{}

@@ -5,15 +5,15 @@ import (
 	"fmt"
 	"image/gif"
 
-	"github.com/pierrre/imageserver"
+	"github.com/runtimeracer/imageserver"
 )
 
 // Handler is a GIF imageserver.Handler implementation.
 //
 // Steps:
-//  - decode the GIF image
-//  - processes the GIF image with a Processor from this package
-//  - encode the image to GIF
+//   - decode the GIF image
+//   - processes the GIF image with a Processor from this package
+//   - encode the image to GIF
 //
 // If there is nothing to do, Handler does not decode the GIF image or call the Processor.
 type Handler struct {

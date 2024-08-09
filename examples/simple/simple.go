@@ -4,16 +4,16 @@ package main
 import (
 	"net/http"
 
-	"github.com/pierrre/imageserver"
-	imageserver_http "github.com/pierrre/imageserver/http"
-	imageserver_http_gift "github.com/pierrre/imageserver/http/gift"
-	imageserver_http_image "github.com/pierrre/imageserver/http/image"
-	imageserver_image "github.com/pierrre/imageserver/image"
-	_ "github.com/pierrre/imageserver/image/gif"
-	imageserver_image_gift "github.com/pierrre/imageserver/image/gift"
-	_ "github.com/pierrre/imageserver/image/jpeg"
-	_ "github.com/pierrre/imageserver/image/png"
-	imageserver_testdata "github.com/pierrre/imageserver/testdata"
+	"github.com/runtimeracer/imageserver"
+	imageserver_http "github.com/runtimeracer/imageserver/http"
+	imageserver_http_gift "github.com/runtimeracer/imageserver/http/gift"
+	imageserver_http_image "github.com/runtimeracer/imageserver/http/image"
+	imageserver_image "github.com/runtimeracer/imageserver/image"
+	_ "github.com/runtimeracer/imageserver/image/gif"
+	imageserver_image_gift "github.com/runtimeracer/imageserver/image/gift"
+	_ "github.com/runtimeracer/imageserver/image/jpeg"
+	_ "github.com/runtimeracer/imageserver/image/png"
+	imageserver_testdata "github.com/runtimeracer/imageserver/testdata"
 )
 
 func main() {

@@ -7,7 +7,7 @@ import (
 	"net/url"
 	"testing"
 
-	"github.com/pierrre/imageserver/testdata"
+	"github.com/runtimeracer/imageserver/testdata"
 )
 
 // nolint: gocyclo

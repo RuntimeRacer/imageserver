@@ -4,9 +4,9 @@ import (
 	"io"
 	"testing"
 
-	"github.com/pierrre/imageserver"
-	imageserver_image "github.com/pierrre/imageserver/image"
-	imageserver_image_test "github.com/pierrre/imageserver/image/_test"
+	"github.com/runtimeracer/imageserver"
+	imageserver_image "github.com/runtimeracer/imageserver/image"
+	imageserver_image_test "github.com/runtimeracer/imageserver/image/_test"
 )
 
 var _ imageserver_image.Encoder = &Encoder{}

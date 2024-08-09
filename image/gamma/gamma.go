@@ -6,10 +6,10 @@ import (
 	"image/draw"
 	"math"
 
-	"github.com/pierrre/imageserver"
-	imageserver_image "github.com/pierrre/imageserver/image"
-	imageserver_image_internal "github.com/pierrre/imageserver/image/internal"
 	"github.com/pierrre/imageutil"
+	"github.com/runtimeracer/imageserver"
+	imageserver_image "github.com/runtimeracer/imageserver/image"
+	imageserver_image_internal "github.com/runtimeracer/imageserver/image/internal"
 )
 
 // Processor is a imageserver/image.Processor implementation that applies gamma transformation.
@@ -71,9 +71,9 @@ const correct = 2.2
 // CorrectionProcessor is a imageserver/image.Processor implementation that corrects gamma for a sub Processor.
 //
 // Steps:
-//  - apply gamma of 1/2.2 (darken)
-//  - call the sub Processor
-//  - apply gamma of 2.2 (lighten)
+//   - apply gamma of 1/2.2 (darken)
+//   - call the sub Processor
+//   - apply gamma of 2.2 (lighten)
 //
 // Internally, it uses NRGBA64 high quality Image, to avoid loss of information.
 //

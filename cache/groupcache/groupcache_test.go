@@ -9,10 +9,10 @@ import (
 
 	"github.com/golang/groupcache"
 	"github.com/pierrre/compare"
-	"github.com/pierrre/imageserver"
-	imageserver_cache "github.com/pierrre/imageserver/cache"
-	imageserver_source "github.com/pierrre/imageserver/source"
-	"github.com/pierrre/imageserver/testdata"
+	"github.com/runtimeracer/imageserver"
+	imageserver_cache "github.com/runtimeracer/imageserver/cache"
+	imageserver_source "github.com/runtimeracer/imageserver/source"
+	"github.com/runtimeracer/imageserver/testdata"
 )
 
 const (

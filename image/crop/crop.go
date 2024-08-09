@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"image"
 
-	"github.com/pierrre/imageserver"
+	"github.com/runtimeracer/imageserver"
 )
 
 const param = "crop"
@@ -13,10 +13,10 @@ const param = "crop"
 // Processor is a imageserver/image.Processor implementation that allows to crop Image.
 //
 // All params are extracted from the "crop" node param and are mandatory:
-//  - min_x: top-left X
-//  - min_y: top-left Y
-//  - max_x: bottom-right X
-//  - max_y: bottom-right Y
+//   - min_x: top-left X
+//   - min_y: top-left Y
+//   - max_x: bottom-right X
+//   - max_y: bottom-right Y
 type Processor struct{}
 
 // Process implements imageserver/image.Processor.

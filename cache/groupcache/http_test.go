@@ -6,7 +6,7 @@ import (
 	"net/http"
 	"testing"
 
-	"github.com/pierrre/imageserver"
+	"github.com/runtimeracer/imageserver"
 )
 
 func TestHTTPPoolContext(t *testing.T) {

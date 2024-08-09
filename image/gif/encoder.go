@@ -5,8 +5,8 @@ import (
 	"image/gif"
 	"io"
 
-	"github.com/pierrre/imageserver"
-	imageserver_image "github.com/pierrre/imageserver/image"
+	"github.com/runtimeracer/imageserver"
+	imageserver_image "github.com/runtimeracer/imageserver/image"
 )
 
 // Encoder is a GIF imageserver/image.Encoder implementation.

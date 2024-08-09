@@ -2,7 +2,7 @@
 package source
 
 import (
-	"github.com/pierrre/imageserver"
+	"github.com/runtimeracer/imageserver"
 )
 
 // Param is the source param name.

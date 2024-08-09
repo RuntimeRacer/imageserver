@@ -10,7 +10,7 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/pierrre/imageserver"
+	"github.com/runtimeracer/imageserver"
 )
 
 const (
@@ -25,15 +25,15 @@ const (
 // All params are extracted from the "graphicsmagick" node param and are optionals.
 //
 // Params (see GraphicsMagick documentation for more information about arguments):
-//  - width / height: sizes for "-resize" argument (both optionals)
-//  - fill: "^" for "-resize" argument
-//  - ignore_ratio: "!" for "-resize" argument
-//  - only_shrink_larger: ">" for "-resize" argument
-//  - only_enlarge_smaller: "<" for "-resize" argument
-//  - background: color for "-background" argument, 3/4/6/8 lower case hexadecimal characters
-//  - extent: "-extent" param, uses width/height params and add "-gravity center" argument
-//  - format: "-format" param
-//  - quality: "-quality" param
+//   - width / height: sizes for "-resize" argument (both optionals)
+//   - fill: "^" for "-resize" argument
+//   - ignore_ratio: "!" for "-resize" argument
+//   - only_shrink_larger: ">" for "-resize" argument
+//   - only_enlarge_smaller: "<" for "-resize" argument
+//   - background: color for "-background" argument, 3/4/6/8 lower case hexadecimal characters
+//   - extent: "-extent" param, uses width/height params and add "-gravity center" argument
+//   - format: "-format" param
+//   - quality: "-quality" param
 type Handler struct {
 	// Executable is the path to "gm" executable, usually "/usr/bin/gm".
 	Executable string

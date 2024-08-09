@@ -5,8 +5,8 @@ import (
 	"image"
 
 	"github.com/disintegration/gift"
-	"github.com/pierrre/imageserver"
-	imageserver_image_internal "github.com/pierrre/imageserver/image/internal"
+	"github.com/runtimeracer/imageserver"
+	imageserver_image_internal "github.com/runtimeracer/imageserver/image/internal"
 )
 
 const (
@@ -16,20 +16,20 @@ const (
 // ResizeProcessor is a imageserver/image.Processor implementation that resizes the Image with GIFT.
 //
 // All params are extracted from the "gift_resize" node param and are optionals:
-//  - width
-//  - height
-//  - mode: resize mode
-//      possible values:
-//      - <no value> (default): see github.com/disintegration/gift.Resize
-//      - fit: see github.com/disintegration/gift.ResizeToFit
-//      - fill: see github.com/disintegration/gift.ResizeToFill
-//  - resampling: resampling method
-//      possible values:
-//      - nearest_neighbor (default)
-//      - box
-//      - linear
-//      - cubic
-//      - lanczos
+//   - width
+//   - height
+//   - mode: resize mode
+//     possible values:
+//   - <no value> (default): see github.com/disintegration/gift.Resize
+//   - fit: see github.com/disintegration/gift.ResizeToFit
+//   - fill: see github.com/disintegration/gift.ResizeToFill
+//   - resampling: resampling method
+//     possible values:
+//   - nearest_neighbor (default)
+//   - box
+//   - linear
+//   - cubic
+//   - lanczos
 type ResizeProcessor struct {
 	DefaultResampling gift.Resampling
 	MaxWidth          int

@@ -5,8 +5,8 @@ import (
 	"image"
 	"testing"
 
-	"github.com/pierrre/imageserver"
-	"github.com/pierrre/imageserver/testdata"
+	"github.com/runtimeracer/imageserver"
+	"github.com/runtimeracer/imageserver/testdata"
 )
 
 var _ imageserver.Handler = &Handler{}

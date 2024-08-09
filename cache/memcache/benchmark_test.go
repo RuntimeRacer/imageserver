@@ -3,9 +3,9 @@ package memcache
 import (
 	"testing"
 
-	"github.com/pierrre/imageserver"
-	cachetest "github.com/pierrre/imageserver/cache/_test"
-	"github.com/pierrre/imageserver/testdata"
+	"github.com/runtimeracer/imageserver"
+	cachetest "github.com/runtimeracer/imageserver/cache/_test"
+	"github.com/runtimeracer/imageserver/testdata"
 )
 
 func BenchmarkGet(b *testing.B) {

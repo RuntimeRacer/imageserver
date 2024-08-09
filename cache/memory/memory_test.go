@@ -3,8 +3,8 @@ package memory
 import (
 	"testing"
 
-	imageserver_cache "github.com/pierrre/imageserver/cache"
-	cachetest "github.com/pierrre/imageserver/cache/_test"
+	imageserver_cache "github.com/runtimeracer/imageserver/cache"
+	cachetest "github.com/runtimeracer/imageserver/cache/_test"
 )
 
 var _ imageserver_cache.Cache = &Cache{}

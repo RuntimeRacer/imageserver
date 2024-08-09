@@ -1,9 +1,10 @@
 // Package advanced provides a groupcache example.
 //
 // Run:
-//  go run groupcache.go -http=:8081 -groupcache-peers=:8082,:8083
-//  go run groupcache.go -http=:8082 -groupcache-peers=:8081,:8083
-//  go run groupcache.go -http=:8083 -groupcache-peers=:8081,:8082
+//
+//	go run groupcache.go -http=:8081 -groupcache-peers=:8082,:8083
+//	go run groupcache.go -http=:8082 -groupcache-peers=:8081,:8083
+//	go run groupcache.go -http=:8083 -groupcache-peers=:8081,:8082
 //
 // Open http://localhost:8081/medium.jpg?width=100
 //
@@ -21,18 +22,18 @@ import (
 
 	"github.com/disintegration/gift"
 	"github.com/golang/groupcache"
-	"github.com/pierrre/imageserver"
-	imageserver_cache "github.com/pierrre/imageserver/cache"
-	imageserver_cache_groupcache "github.com/pierrre/imageserver/cache/groupcache"
-	imageserver_http "github.com/pierrre/imageserver/http"
-	imageserver_http_gift "github.com/pierrre/imageserver/http/gift"
-	imageserver_http_image "github.com/pierrre/imageserver/http/image"
-	imageserver_image "github.com/pierrre/imageserver/image"
-	_ "github.com/pierrre/imageserver/image/gif"
-	imageserver_image_gift "github.com/pierrre/imageserver/image/gift"
-	_ "github.com/pierrre/imageserver/image/jpeg"
-	_ "github.com/pierrre/imageserver/image/png"
-	imageserver_testdata "github.com/pierrre/imageserver/testdata"
+	"github.com/runtimeracer/imageserver"
+	imageserver_cache "github.com/runtimeracer/imageserver/cache"
+	imageserver_cache_groupcache "github.com/runtimeracer/imageserver/cache/groupcache"
+	imageserver_http "github.com/runtimeracer/imageserver/http"
+	imageserver_http_gift "github.com/runtimeracer/imageserver/http/gift"
+	imageserver_http_image "github.com/runtimeracer/imageserver/http/image"
+	imageserver_image "github.com/runtimeracer/imageserver/image"
+	_ "github.com/runtimeracer/imageserver/image/gif"
+	imageserver_image_gift "github.com/runtimeracer/imageserver/image/gift"
+	_ "github.com/runtimeracer/imageserver/image/jpeg"
+	_ "github.com/runtimeracer/imageserver/image/png"
+	imageserver_testdata "github.com/runtimeracer/imageserver/testdata"
 )
 
 const (

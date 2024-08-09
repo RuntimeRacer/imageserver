@@ -6,7 +6,7 @@ import (
 	"image"
 
 	"github.com/nfnt/resize"
-	"github.com/pierrre/imageserver"
+	"github.com/runtimeracer/imageserver"
 )
 
 const (
@@ -16,20 +16,20 @@ const (
 // Processor is a nfnt/resize imageserver/image.Processor implementation.
 //
 // All params are extracted from the "graphicsmagick" node param and are optionals:
-//  - width
-//  - height
-//  - mode: resize mode
-//      possible values:
-//      - resize (default): see github.com/nfnt/resize.Resize
-//      - thumbnail: see github.com/nfnt/resize.Thumbnail
-//  - interpolation: interpolation method
-//      possible values:
-//      - nearest_neighbor (default)
-//      - bilinear
-//      - bicubic
-//      - mitchell_netravali
-//      - lanczos2
-//      - lanczos3
+//   - width
+//   - height
+//   - mode: resize mode
+//     possible values:
+//   - resize (default): see github.com/nfnt/resize.Resize
+//   - thumbnail: see github.com/nfnt/resize.Thumbnail
+//   - interpolation: interpolation method
+//     possible values:
+//   - nearest_neighbor (default)
+//   - bilinear
+//   - bicubic
+//   - mitchell_netravali
+//   - lanczos2
+//   - lanczos3
 type Processor struct {
 	DefaultInterpolation resize.InterpolationFunction
 	MaxWidth             int

@@ -7,8 +7,8 @@ import (
 	"math"
 
 	"github.com/disintegration/gift"
-	"github.com/pierrre/imageserver"
-	imageserver_image_internal "github.com/pierrre/imageserver/image/internal"
+	"github.com/runtimeracer/imageserver"
+	imageserver_image_internal "github.com/runtimeracer/imageserver/image/internal"
 )
 
 const (

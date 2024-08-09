@@ -2,8 +2,8 @@
 package memory
 
 import (
-	"github.com/pierrre/imageserver"
 	"github.com/pierrre/lrucache"
+	"github.com/runtimeracer/imageserver"
 )
 
 // Cache is an in-memory imageserver/cache.Cache implementation.

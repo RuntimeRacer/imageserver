@@ -5,10 +5,9 @@ import (
 	"io"
 	"testing"
 
-	"github.com/pierrre/imageserver"
-	. "github.com/pierrre/imageserver/image"
-	_ "github.com/pierrre/imageserver/image/jpeg"
-	"github.com/pierrre/imageserver/testdata"
+	"github.com/runtimeracer/imageserver"
+	_ "github.com/runtimeracer/imageserver/image/jpeg"
+	"github.com/runtimeracer/imageserver/testdata"
 )
 
 var _ Encoder = EncoderFunc(nil)

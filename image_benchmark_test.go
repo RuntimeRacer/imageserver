@@ -3,8 +3,7 @@ package imageserver_test
 import (
 	"testing"
 
-	. "github.com/pierrre/imageserver"
-	"github.com/pierrre/imageserver/testdata"
+	"github.com/runtimeracer/imageserver/testdata"
 )
 
 func BenchmarkImageMarshalBinary(b *testing.B) {

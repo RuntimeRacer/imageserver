@@ -6,7 +6,7 @@ import (
 	"image"
 	"io"
 
-	"github.com/pierrre/imageserver"
+	"github.com/runtimeracer/imageserver"
 )
 
 // Encoder encodes an Image.
